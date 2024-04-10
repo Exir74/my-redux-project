@@ -1,0 +1,12 @@
+.mainContent{
+	max-width: 676px;
+ @media screen {
+	 @media (max-width: 950px) {
+		 max-width: 448px;
+	 }
+	 @media (max-width: 664px) {
+		 max-width: 220px;
+	 }
+
+ }
+}

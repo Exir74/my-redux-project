@@ -1,0 +1,29 @@
+
+.cardWithImage {
+	width: 220px;
+	@media screen {
+		@media (max-width: 615px) {
+			margin: auto;
+		}
+	}
+}
+
+//FIX
+.actions {
+	box-sizing: border-box;
+	background-color: aqua;
+}
+
+.cardImage {
+	width: 220px;
+	height: 250px;
+	object-fit: cover;
+	@media screen {
+		@media (max-width: 950p) {
+			width: 220px;
+		}
+		@media (max-width: 615px) {
+			width: 310px;
+		}
+	}
+}
